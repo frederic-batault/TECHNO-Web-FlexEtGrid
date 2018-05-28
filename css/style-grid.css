@@ -1,0 +1,55 @@
+.container {
+	border: solid;
+	display: grid;
+	grid-template-columns: 300px 1fr;
+	grid-template-rows: 100px 1024px 100px;
+	grid-template-areas: 	"h h"
+							"n c"
+							"f f";
+}
+/*
+.bloc1 {
+	grid-column: 1;
+	grid-row: 1;
+	background-color: RGB(255,0,0);
+}
+.bloc2 {
+	grid-column: 2;
+	grid-row: 1;
+	background-color: RGB(0,255,0);
+}
+.bloc3 {
+	grid-column: 1;
+	grid-row: 2;
+	background-color: RGB(0,0,255);
+}
+.bloc4 {
+	grid-column: 2;
+	grid-row: 2;
+	background-color: RGB(255,255,0);
+}
+*/
+
+.bloc1 {
+	background-color: RGB(255,0,0);
+	grid-area: n;
+	justify-self: start;
+}
+.bloc2 {
+	background-color: RGB(0,255,0);
+	grid-area: c;
+	justify-self: end;
+}
+.bloc3 {
+	background-color: RGB(0,0,255);
+	grid-area: h;
+	justify-self: stretch;
+}
+.bloc4 {
+	background-color: RGB(255,255,0);
+	grid-area: f;
+	justify-self: center;
+}
+
+
+

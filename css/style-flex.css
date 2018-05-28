@@ -1,0 +1,23 @@
+.container {
+	border-style: solid;
+	height: 1024px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+.bloc1 {
+	border-style: dashed;
+	display: inline-flex;
+	margin: auto;
+	order: 2;
+	flex: 2;
+	
+}
+.bloc2 {
+	align-self: flex-end;
+	border-style: dashed;
+	order: 1;
+	flex: 1;
+}
